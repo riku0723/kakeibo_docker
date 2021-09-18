@@ -176,6 +176,8 @@ func inComeDelete(c *gin.Context) {
 
 func main() {
 
+    r := gin.Default()
+
 	r.POST("/addProduct", AddProduct)
 
 	r.POST("/expProduct", ExpProduct)
