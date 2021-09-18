@@ -24,8 +24,6 @@ services:
   react:
     build: ../react
     container_name: react
-    volumes:
-      - /home/ubuntu/kakeibo_docker/react/:/usr/src/app
     command: sh -c "cd EC2container && npm start"
     tty: true
     stdin_open: true

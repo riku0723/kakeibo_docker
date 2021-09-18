@@ -47,7 +47,7 @@ function Home() {
 
   const axiosBase = require('axios');
   const axios = axiosBase.create({
-    baseURL: 'http://18.179.5.96' ,
+    baseURL: 'http://localhost' ,
     responseType: 'json'
   });
 
